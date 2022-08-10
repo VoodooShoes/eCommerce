@@ -1,6 +1,7 @@
 ﻿using eCommerce.Models;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace eCommerce.Data
 {
     public class AppDbContext:DbContext
@@ -23,11 +24,11 @@ namespace eCommerce.Data
 
             base.OnModelCreating(modelBuilder);
         }
-        public DbSet<ActorModel> Actors { get; set; }
-        public DbSet<MovieModel> Movies { get; set; }
-        public DbSet<Actor_MovieModel> Actors_Movies { get; set; }
-        public DbSet<CinemaModel> Cinemas { get; set; }
-        public DbSet<ProducerModel> Producers { get; set; }
+        public DbSet<ActorModel> Actors { get; set; } = null!;
+        public DbSet<MovieModel> Movies { get; set; } = null!;
+        public DbSet<Actor_MovieModel> Actor_Movies { get; set; } = null!;
+        public DbSet<CinemaModel> Cinemas { get; set; } = null!;
+        public DbSet<ProducerModel> Producer { get; set; } = null!;
 
     }
 }

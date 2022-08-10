@@ -6,13 +6,13 @@ namespace eCommerce.Models
     {
         [Key]
         public int ActorId { get; set; }
-        public string ProfilePictureURL { get; set; }
+        public string ProfilePictureURL { get; set; } = null!;
 
-        public string FullName { get; set; }
+        public string FullName { get; set; } = null!;
 
-        public string Bio { get; set; }
+        public string Bio { get; set; } = null!;
 
         //Relationships
-        public List<Actor_MovieModel> Actors_Movies { get; set; }
+        public List<Actor_MovieModel> Actors_Movies { get; set; } = null!;
     }
 }
