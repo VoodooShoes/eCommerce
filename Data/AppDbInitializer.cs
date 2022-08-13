@@ -31,51 +31,75 @@ namespace eCommerce.Data
                         },
                         new CinemaModel()
                         {
-                            Name = "20th Century Fox",
-                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/20th_Century.png",
-                            Description = "20th Century Studios, Inc. is an American film production studio headquartered at the Fox Studio Lot in the Century City area of Los Angeles."
+                            Name = "Fox Searchlight Pictures",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/fox_searchlight_pictures.png",
+                            Description = "Searchlight Pictures, Inc. is an American film studio that is a division of 20th Century Studios, a subsidiary of Walt Disney Studios, which is part of The Walt Disney Company."
                         },
                         new CinemaModel()
                         {
-                            Name = "20th Century Fox",
-                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/20th_Century.png",
-                            Description = "20th Century Studios, Inc. is an American film production studio headquartered at the Fox Studio Lot in the Century City area of Los Angeles."
+                            Name = "Lionsgate",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/lionsgate.png",
+                            Description = "Lions Gate Entertainment Corporation, is a Canadian-American entertainment company. It was formed by Frank Giustra on July 10, 1997, domiciled in Vancouver, British Columbia, Canada and is currently headquartered in Santa Monica, California, United States."
                         },
                         new CinemaModel()
                         {
-                            Name = "20th Century Fox",
-                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/20th_Century.png",
-                            Description = "20th Century Studios, Inc. is an American film production studio headquartered at the Fox Studio Lot in the Century City area of Los Angeles."
+                            Name = "Marvel Studios",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/marvel_studios.png",
+                            Description = "Marvel Studios, LLC is an American film and television production company that is a subsidiary of Walt Disney Studios, a division of the Walt Disney Company. Marvel Studios produces the Marvel Cinematic Universe films, based on characters that appear in Marvel Comics publications. "
                         },
                         new CinemaModel()
                         {
-                            Name = "20th Century Fox",
-                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/20th_Century.png",
-                            Description = "20th Century Studios, Inc. is an American film production studio headquartered at the Fox Studio Lot in the Century City area of Los Angeles."
+                            Name = "Miramax",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/miramax.png",
+                            Description = "Miramax, LLC is an American entertainment company known for producing and distributing films and television shows. Its headquarters are located in Los Angeles, California."
                         },
                         new CinemaModel()
                         {
-                            Name = "20th Century Fox",
-                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/20th_Century.png",
-                            Description = "20th Century Studios, Inc. is an American film production studio headquartered at the Fox Studio Lot in the Century City area of Los Angeles."
+                            Name = "New Line Cinema",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/new_line_cinema.png",
+                            Description = "New Line Cinema is an American film production studio and label of Warner Bros. It was founded in 1967 by Robert Shaye as an independent film distribution company; later becoming a film studio."
                         },
                         new CinemaModel()
                         {
-                            Name = "20th Century Fox",
-                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/20th_Century.png",
-                            Description = "20th Century Studios, Inc. is an American film production studio headquartered at the Fox Studio Lot in the Century City area of Los Angeles."
+                            Name = "Paramount",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/paramount.png",
+                            Description = "Paramount Pictures Corporation is an American film and television production and distribution company and the main namesake division of Paramount Global."
                         },
                         new CinemaModel()
                         {
-                            Name = "20th Century Fox",
-                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/20th_Century.png",
-                            Description = "20th Century Studios, Inc. is an American film production studio headquartered at the Fox Studio Lot in the Century City area of Los Angeles."
+                            Name = "Sony",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/sony.png",
+                            Description = "Sony Pictures Entertainment Inc. is an American diversified multinational mass media and entertainment studio conglomerate that produces, acquires, and distributes filmed entertainment through multiple platforms."
                         },
                         new CinemaModel()
                         {
-                            Name = "20th Century Fox",
-                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/20th_Century.png",
-                            Description = "20th Century Studios, Inc. is an American film production studio headquartered at the Fox Studio Lot in the Century City area of Los Angeles."
+                            Name = "Studio Ghibli",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/studio_ghibli.png",
+                            Description = "Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. It is best known for its animated feature films, and has also produced several short subjects, television commercials, and two television films."
+                        }
+                        new CinemaModel()
+                        {
+                            Name = "The Weinstein Company",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/studio_ghibli.png",
+                            Description = "The Weinstein Company was an American independent film studio, founded in New York City by Bob and Harvey Weinstein on March 10, 2005."
+                        }
+                        new CinemaModel()
+                        {
+                            Name = "Touchstone Pictures",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/touchstone_pictures.png",
+                            Description = "Touchstone Pictures, Inc. is a defunct American film production label of Walt Disney Studios, founded and owned by The Walt Disney Company."
+                        }
+                        new CinemaModel()
+                        {
+                            Name = "Universal Studios",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/universal_studios.png",
+                            Description = "Universal Pictures is an American film production and distribution company owned by Comcast through the NBCUniversal Film and Entertainment division of NBCUniversal."
+                        }
+                        new CinemaModel()
+                        {
+                            Name = "Warner Brothers",
+                            Logo = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Cinemas/Images/warner_brothers.png",
+                            Description = "Warner Bros. Entertainment Inc. is an American entertainment conglomerate headquartered at the Warner Bros. Studios complex in Burbank, California, and a division of Warner Bros. Discovery."
                         }
 
                     });
