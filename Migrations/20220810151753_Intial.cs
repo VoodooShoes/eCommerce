@@ -136,7 +136,7 @@ namespace eCommerce.Migrations
                 name: "Cinemas");
 
             migrationBuilder.DropTable(
-                name: "Producer");
+                name: "Producers");
         }
     }
 }

@@ -22,11 +22,11 @@ namespace eCommerce.Models
         //Cinema
         public int CinemaId { get; set; }
         [ForeignKey("CinemaId")]
-        public CinemaModel Cinemas { get; set; } = null!;
+        public CinemaModel Cinemas { get; set; }
 
         //Producer
         public int ProducerId { get; set; }
         [ForeignKey("ProducerId")]
-        public ProducerModel Producers { get; set; } = null!;
+        public ProducerModel Producers { get; set; }
     }
 }
