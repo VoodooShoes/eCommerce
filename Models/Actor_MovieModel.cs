@@ -6,7 +6,5 @@
         public MovieModel Movies { get; set; }
         public int ActorId { get; set; }
         public ActorModel Actors { get; set; }
-
-
     }
 }

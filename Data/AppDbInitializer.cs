@@ -114,7 +114,7 @@ namespace eCommerce.Data
                         {
                             FullName = "A. J. Cook",
                             Bio = "Andrea Joy Cook is a Canadian actress. She is best known for her role as Supervisory Special Agent Jennifer Jareau on the CBS crime drama Criminal Minds. Cook has also appeared in The Virgin Suicides, Higher Ground, Ripper, Out Cold, Final Destination 2, and Tru Calling.",
-                            ProfilePictureURL = "C:/Users/asus/Desktop/eCommerce/wwwroot/lib/Images/Actors/a_j_cook.png"
+                            ProfilePictureURL = "eCommerce//wwwroot//lib//Images//Actors//a_j_cook.png"
                         },
                         new ActorModel()
                         {

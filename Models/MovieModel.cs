@@ -8,9 +8,12 @@ namespace eCommerce.Models
     {
         [Key]
         public int MovieId { get; set; }
+        [Display(Name = "Title")]
         public string Name { get; set; }
-        public string Description { get; set; } = null!;
+        [Display(Name = "Description")]
+        public string Description { get; set; }
         public double Price { get; set; }
+        [Display(Name = "Poster")]
         public string ImageURL { get; set; } = null!;
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
@@ -22,11 +25,11 @@ namespace eCommerce.Models
         //Cinema
         public int CinemaId { get; set; }
         [ForeignKey("CinemaId")]
-        public CinemaModel Cinemas { get; set; }
+        public CinemaModel Cinemas { get; set; } = null!;
 
         //Producer
         public int ProducerId { get; set; }
         [ForeignKey("ProducerId")]
-        public ProducerModel Producers { get; set; }
+        public ProducerModel Producers { get; set; } = null!;
     }
 }

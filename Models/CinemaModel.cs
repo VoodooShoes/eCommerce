@@ -6,11 +6,12 @@ namespace eCommerce.Models
     {
         [Key]
         public int CinemaId { get; set; }
-        public string Logo { get; set; }
-
-        public string Name { get; set; }
-
-        public string Description { get; set; }
+        [Display(Name = "Logo")]
+        public string Logo { get; set; } = null!;
+        [Display(Name = "Studio Name")]
+        public string Name { get; set; } = null!; 
+        [Display(Name = "Description")]
+        public string Description { get; set; } = null!;
 
         //Relationships
         public List<MovieModel> Movies { get; set; }

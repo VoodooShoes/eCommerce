@@ -8,10 +8,13 @@ namespace eCommerce.Models
         [Key]
         public int ProducerId { get; set; }
 
+        [Display(Name = "Picture")]
         public string ProfilePictureURL { get; set; }
 
+        [Display(Name = "Name")]
         public string FullName { get; set; }
 
+        [Display(Name = "Bio")]
         public string Bio { get; set; }
 
         //Relationships
