@@ -1,20 +1,21 @@
-﻿using eCommerce.Data;
+﻿using eCommerce.Data.Services;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 
 namespace eCommerce.Controllers
 {
     public class ActorController : Controller
     {
-        private readonly AppDbContext _context;
+        private readonly IActorService _service;
 
-        public ActorController(AppDbContext AppDbContext)
+        public ActorController(IActorService service)
         {
-            _context = AppDbContext;
+            _service = service;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var data = _context.Actors.ToList();
+            var data = await _service.GetAll();
             return View(data);
         }
     }
