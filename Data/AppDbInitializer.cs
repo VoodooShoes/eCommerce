@@ -140,19 +140,19 @@ namespace eCommerce.Data
                         {
                             FullName = "Kevin Feige",
                             Bio = "Kevin Feige is an American film and television producer who has been the president of Marvel Studios and the primary producer of the Marvel Cinematic Universe franchise since 2007.",
-                            ProfilePictureURL = "/lib/Images/Actors/kevin_feige.png"
+                            ProfilePictureURL = "/lib/Images/Producers/kevin_feige.png"
                         },
                         new ProducerModel()
                         {
                             FullName = "Lawrence Bender",
                             Bio = "Lawrence Bender is an American film producer. Throughout his career, Bender-produced films have received 36 Academy Award nominations, resulting in eight wins.",
-                            ProfilePictureURL = "/lib/Images/Actors/lawrence_bender.png"
+                            ProfilePictureURL = "/lib/Images/Producers/lawrence_bender.png"
                         },
                         new ProducerModel()
                         {
                             FullName = "Martin Scorsese",
                             Bio = "Martin Charles Scorsese is an American film director, producer, screenwriter and actor. He is the recipient of many accolades, including an Academy Award, three Primetime Emmy Awards, a Grammy Award, four British Academy Film Awards, three Golden Globe Awards, and two Directors Guild of America Awards.",
-                            ProfilePictureURL = "/lib/Images/Actors/martin_scorsese.png"
+                            ProfilePictureURL = "/lib/Images/Producers/martin_scorsese.png"
                         }
                     });
                     context.SaveChanges();
