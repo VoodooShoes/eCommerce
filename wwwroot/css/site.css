@@ -14,5 +14,51 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background-image: url("/lib/Images/background.png");
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
 }
+
+.row {
+
+}
+
+.card-header text-white bg-info {
+    background-color: rgb(255, 255, 255)
+}
+
+navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 {
+    background-color: rgb(0, 0, 0, 0.23)
+}
+
+card-header text-black bg-info {
+    background-color: red;
+}
+.table {
+    color: white;
+}
+
+.btn btn-Outline-primary {
+    color: white;
+}
+
+.movie-header {
+    color: white;
+}
+
+.producer-header {
+    color: white;
+}
+
+.actor-header {
+    color: white;
+}
+
+.studio-header {
+    color: white;
+}
+

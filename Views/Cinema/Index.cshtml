@@ -6,7 +6,7 @@
 }
 
 @*Code*@
-<h1>Studios</h1>
+<h1 class="studio-header">Studios</h1>
 
 <div class="row">
 	<div class="col-md-8 offset-md-2">
@@ -24,7 +24,7 @@
 				{
 				<tr>
 					<td class="alert-middle">
-						<img class="rounded-circle" src="@item.Logo" alt="@item.Name" style="max-width: 150px"/>
+						<img class="rounded-end" src="@item.Logo" alt="@item.Name" style="max-width: 150px"/>
 					</td>
 					<td class="alert-middle">
 						@Html.DisplayFor(modelItem => item.Name)
@@ -33,8 +33,8 @@
 						@Html.DisplayFor(modelItem => item.Description)
 					</td>
 					<td class="alert-middle">
-						<a class="btn btn-Outline-primary"><i class="bi bi-pencil-square">Edit</i></a> |
-						<a class="btn btn-Outline-info"><i class="bi bi-eye">Details</i></a> |
+						<a class="btn btn-Outline-primary text-white"><i class="bi bi-pencil-square">Edit</i></a> |
+						<a class="btn btn-Outline-info text-white"><i class="bi bi-eye">Details</i></a> |
 						<a class="btn btn-danger text-white"><i class="bi bi-trash">Delete</i></a>
 					</td>
 				</tr>

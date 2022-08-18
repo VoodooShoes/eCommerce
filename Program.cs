@@ -1,13 +1,17 @@
+using Microsoft.Extensions.DependencyInjection;
 using eCommerce.Data;
+using eCommerce.Data.Services;
 using Microsoft.EntityFrameworkCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<IActorService, ActorService>();
 builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString") ?? throw new InvalidOperationException("You Suck")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 
 var app = builder.Build();
 
