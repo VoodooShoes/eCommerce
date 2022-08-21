@@ -10,9 +10,10 @@ namespace eCommerce.Data.Services
 		{
 			_context = context;
 		}
-		public void Add(ActorModel actor)
+		public async Task AddAsync(ActorModel actor)
 		{
-			throw new NotImplementedException();
+			await _context.Actors.AddAsync(actor);
+			await _context.SaveChangesAsync();
 		}
 
 		public void Delete(int id)
@@ -20,15 +21,16 @@ namespace eCommerce.Data.Services
 			throw new NotImplementedException();
 		}
 
-		public async Task<IEnumerable<ActorModel>>GetAll()
+		public async Task<IEnumerable<ActorModel>>GetAllAsync()
 		{
 			var result = await _context.Actors.ToListAsync();
 			return result;
 		}
 
-		public ActorModel GetById(int id)
+		public async Task<ActorModel> GetByIdAsync(int id)
 		{
-			throw new NotImplementedException();
+			var result = await _context.Actors.FirstOrDefaultAsync(n => n.ActorId == id);
+			return result;
 		}
 
 		public ActorModel Update(int id, ActorModel newActor)

@@ -20,7 +20,7 @@
 					<th>Actions</th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody class="actor-table">
 				@foreach (var item in Model)
 				{
 				<tr>
@@ -34,9 +34,9 @@
 						@Html.DisplayFor(modelItem => item.Bio)
 					</td>
 					<td class="alert-middle">
-						<a class="btn btn-Outline-primary text-white"><i class="bi bi-pencil-square">Edit</i></a> |
-						<a class="btn btn-Outline-info text-white"><i class="bi bi-eye">Details</i></a> |
-						<a class="btn btn-danger text-white"><i class="bi bi-trash">Delete</i></a>
+						<a class="btn btn-Outline-primary text-white" asp-action="Edit" asp-route-id="@item.ActorId"><i class="bi bi-pencil-square">Edit</i></a> |
+						<a class="btn btn-Outline-info text-white" asp-action="Details" asp-route-id="@item.ActorId"><i class="bi bi-eye">Details</i></a> |
+						<a class="btn btn-danger text-white" asp-action="Delete" asp-route-id="@item.ActorId"><i class="bi bi-trash">Delete</i></a>
 					</td>
 				</tr>
 				}
@@ -46,4 +46,8 @@
 			</tr>
 		</table>
 	</div>
+</div>
+
+<div style="position: fixed; right: 25px; bottom: 25px;" class="text-white">
+	<a asp-controller="Actor" asp-action="Create" class="btn btn-success"><i class="bg-info bi-plus-circle"></i>Add New</a>
 </div>
