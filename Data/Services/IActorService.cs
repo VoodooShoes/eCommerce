@@ -7,7 +7,7 @@ namespace eCommerce.Data.Services
 		Task<IEnumerable<ActorModel>> GetAllAsync();
 		Task<ActorModel> GetByIdAsync(int id);
 		Task AddAsync(ActorModel actor);
-		ActorModel Update(int id, ActorModel newActor);
+		Task<ActorModel> UpdateAsync(int id, ActorModel newActor);
 		void Delete(int id);
 	}
 }

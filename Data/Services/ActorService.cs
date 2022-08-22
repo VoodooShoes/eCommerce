@@ -33,9 +33,11 @@ namespace eCommerce.Data.Services
 			return result;
 		}
 
-		public ActorModel Update(int id, ActorModel newActor)
+		public async Task<ActorModel> UpdateAsync(int id, ActorModel newActor)
 		{
-			throw new NotImplementedException();
+			_context.Update(newActor);
+			await _context.SaveChangesAsync();
+			return newActor;
 		}
 	}
 }
