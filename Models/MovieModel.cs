@@ -11,7 +11,7 @@ namespace eCommerce.Models
         [Display(Name = "Title")]
         public string Name { get; set; }
         [Display(Name = "Description")]
-        public string Description { get; set; }
+        public string Description { get; set; } = null!;
         public double Price { get; set; }
         [Display(Name = "Poster")]
         public string ImageURL { get; set; } = null!;

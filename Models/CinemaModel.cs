@@ -14,7 +14,7 @@ namespace eCommerce.Models
         public string Description { get; set; } = null!;
 
         //Relationships
-        public List<MovieModel> Movies { get; set; }
+        public List<MovieModel> Movies { get; set; } = null!;
 
     }
 }
