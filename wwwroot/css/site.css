@@ -72,46 +72,59 @@
     100% {opacity: 1;}
 }
 
-html {
-    font-size: 14px;
+@keyframes animehover {
+    from {
+        text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff, 0px 0px 50px #7B96B8, 0px 0px 150px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px -10px 100px #7B96B8, 0px -10px 100px #7B96B8;
+    }
 }
 
-.navbar {
-    font-family: 'Amatic SC', cursive;
-    font-size: 25px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(253, 250, 250, 0.05);
-    box-shadow: inherit;
-    background-color: rgb(255, 255, 255, 0.05);
-}
-
-.navbar-brand {
-    font-family: 'Amatic SC', cursive;
-    font-size: 40px;
-    animation-name: anime;
+li:hover {
+    animation-name: animehover;
     animation-duration: 10s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in;
     animation-delay: 0s;
 }
 
-.nav-link {
-    animation-name: anime;
-    animation-duration: 10s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-}
-    
-.btn-search {
 
-}
+    .html {
+        font-size: 14px;
+    }
 
-.card-header {
-    background-color: rgb(255, 255, 255, 0.25);
-}
+    .navbar {
+        font-family: 'Amatic SC', cursive;
+        font-size: 25px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(253, 250, 250, 0.05);
+        box-shadow: inherit;
+        background-color: rgb(255, 255, 255, 0.05);
+    }
 
-@media (min-width: 768px) {
-    html {
+    .navbar-brand {
+        font-family: 'Amatic SC', cursive;
+        font-size: 40px;
+        animation-name: anime;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+    }
+
+    .nav-link {
+        animation-name: anime;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+    }
+
+    .btn-search {
+    }
+
+    .card-header {
+        background-color: rgb(255, 255, 255, 0.25);
+    }
+
+    @media (min-width: 768px) {
+        html {
     font-size: 16px;
   }
 }

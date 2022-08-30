@@ -9,16 +9,16 @@ namespace eCommerce.Models
         public int ProducerId { get; set; }
 
         [Display(Name = "Picture")]
-        public string ProfilePictureURL { get; set; }
+        public string ProfilePictureURL { get; set; } = null!;
 
         [Display(Name = "Name")]
-        public string FullName { get; set; }
+        public string FullName { get; set; } = null!;
 
         [Display(Name = "Bio")]
-        public string Bio { get; set; }
+        public string Bio { get; set; } = null!;
 
         //Relationships
-        public List<MovieModel> Movies { get; set; }
+        public List<MovieModel> Movies { get; set; } = null!;
 
     }
 }
